@@ -1,0 +1,22 @@
+kosii.test20170312
+
+로그인 > 일반로그인
+
+Author : 이소엽
+Create Date : 2017-03-28
+
+DataAccess
+	Create DataAccess: 체크
+	Resource(SQLMap) Folder: src/main/resources/kosii/sqlmap/test/crud
+	DAO Package: kosii.test.curd.comtnemplyrinfo.service.impl
+	VO Package: kosii.test.curd.comtnemplyrinfo.service
+
+Service
+	Create Service: 체크
+	Service Package: kosii.test.curd.comtnemplyrinfo.service
+	Service Impl Package: kosii.test.curd.comtnemplyrinfo.service.impl
+
+Web
+	Create Web: 
+	Controller Package: kosii.test.sub.comtnemplyrinfo.web
+	JSP Folder: src/main/webapp/WEB-INF/jsp/kosii/test/crud
