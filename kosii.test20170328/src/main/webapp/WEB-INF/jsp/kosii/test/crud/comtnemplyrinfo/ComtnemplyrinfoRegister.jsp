@@ -52,7 +52,8 @@ function fn_egov_save() {
 	/* TODO Validation기능 보완 */
 	
   	frm.action = "<c:url value="${registerFlag == '등록' ? '/comtnemplyrinfo/addComtnemplyrinfo.do' : '/comtnemplyrinfo/updateComtnemplyrinfo.do'}"/>";
-    frm.submit();
+    frm.method = 'get';
+  	frm.submit();
 
 }
 

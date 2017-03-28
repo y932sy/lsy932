@@ -31,6 +31,7 @@
 function fn_egov_select(emplyrId) {
 	document.getElementById("listForm").emplyrId.value = emplyrId;
    	document.getElementById("listForm").action = "<c:url value='/comtnemplyrinfo/updateComtnemplyrinfoView.do'/>";
+   	document.getElementById("listForm").method = 'get';
    	document.getElementById("listForm").submit();
 }
 
